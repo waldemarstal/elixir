@@ -1,4 +1,6 @@
-<h1>Falling starts now!</h1>
+<h1>Speed at impact was <%= @speed %> m/s.</h1>
+
+<p>Fall again?</p>
 
 <%= form_for @conn, welcome_path(@conn, :fall), [as: :calculation],
 fn f -> %>

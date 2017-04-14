@@ -18,6 +18,8 @@ defmodule Web.Router do
 
     get "/", PageController, :index
     get "/welcome", WelcomeController, :welcome
+    get "/fall", WelcomeController, :fall
+    post "/fall", WelcomeController, :fall
   end
 
   # Other scopes may use custom stacks.
